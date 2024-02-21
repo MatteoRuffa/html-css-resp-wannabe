@@ -143,29 +143,24 @@ img {
 
 @media screen and (max-width: 480px) {
     .container {
-        width: 100%;
+        max-width: 480px;
         margin: 0 auto;
+        padding: 0 20px;
     } 
 
-    .col {
-        padding-left: 0rem;
+    .col, .why-us h2 {
+        padding-left: 4rem;
+        padding-right:4rem;
     }
-    
-    .lessons {
-        margin: 10px;
-    }
+
     .lessons .col {
         width: 100%;
     }
+
     .row {
         display: flex;
         flex-wrap: wrap;
-        gap: 6rem;
-    }
-   
-    .lessons .col img {
-        height: 200px;
-        margin-bottom: 1rem;
+        gap: 4rem;
     }
 
     .steps .col {
